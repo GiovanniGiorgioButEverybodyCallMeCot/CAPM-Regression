@@ -1,0 +1,26 @@
+Summary for Porfolio:
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     HUMANA - TOT RETURN IND   R-squared:                       0.231
+Model:                                 OLS   Adj. R-squared:                  0.228
+Method:                      Least Squares   F-statistic:                     85.70
+Date:                     Mon, 04 Nov 2024   Prob (F-statistic):           5.13e-18
+Time:                             18:56:35   Log-Likelihood:                -1025.8
+No. Observations:                      288   AIC:                             2056.
+Df Residuals:                          286   BIC:                             2063.
+Df Model:                                1                                         
+Covariance Type:                 nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.5939      0.506      1.174      0.241      -0.402       1.589
+x1             1.0700      0.116      9.257      0.000       0.843       1.298
+==============================================================================
+Omnibus:                       26.671   Durbin-Watson:                   2.002
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               60.650
+Skew:                          -0.448   Prob(JB):                     6.76e-14
+Kurtosis:                       5.062   Cond. No.                         4.39
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
