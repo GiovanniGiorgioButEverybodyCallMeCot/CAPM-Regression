@@ -5,7 +5,7 @@ Dep. Variable:     JOHNSON & JOHNSON - TOT RETURN IND   R-squared:              
 Model:                                            OLS   Adj. R-squared:                  0.453
 Method:                                 Least Squares   F-statistic:                     238.5
 Date:                                Thu, 07 Nov 2024   Prob (F-statistic):           1.50e-39
-Time:                                        17:46:25   Log-Likelihood:                -775.08
+Time:                                        18:55:57   Log-Likelihood:                -775.08
 No. Observations:                                 288   AIC:                             1554.
 Df Residuals:                                     286   BIC:                             1561.
 Df Model:                                           1                                         
@@ -34,7 +34,7 @@ Dep. Variable:     BOSTON SCIENTIFIC - TOT RETURN IND   R-squared:              
 Model:                                            OLS   Adj. R-squared:                  0.204
 Method:                                 Least Squares   F-statistic:                     74.62
 Date:                                Thu, 07 Nov 2024   Prob (F-statistic):           4.10e-16
-Time:                                        17:46:25   Log-Likelihood:                -997.07
+Time:                                        18:55:57   Log-Likelihood:                -997.07
 No. Observations:                                 288   AIC:                             1998.
 Df Residuals:                                     286   BIC:                             2005.
 Df Model:                                           1                                         
@@ -63,7 +63,7 @@ Dep. Variable:     ELI LILLY - TOT RETURN IND   R-squared:                      
 Model:                                    OLS   Adj. R-squared:                  0.339
 Method:                         Least Squares   F-statistic:                     148.3
 Date:                        Thu, 07 Nov 2024   Prob (F-statistic):           9.00e-28
-Time:                                17:46:25   Log-Likelihood:                -906.84
+Time:                                18:55:57   Log-Likelihood:                -906.84
 No. Observations:                         288   AIC:                             1818.
 Df Residuals:                             286   BIC:                             1825.
 Df Model:                                   1                                         
@@ -92,7 +92,7 @@ Dep. Variable:     PFIZER - TOT RETURN IND   R-squared:                       0.
 Model:                                 OLS   Adj. R-squared:                  0.450
 Method:                      Least Squares   F-statistic:                     235.4
 Date:                     Thu, 07 Nov 2024   Prob (F-statistic):           3.56e-39
-Time:                             17:46:25   Log-Likelihood:                -848.92
+Time:                             18:55:58   Log-Likelihood:                -848.92
 No. Observations:                      288   AIC:                             1702.
 Df Residuals:                          286   BIC:                             1709.
 Df Model:                                1                                         
@@ -121,7 +121,7 @@ Dep. Variable:     TELEFLEX - TOT RETURN IND   R-squared:                       
 Model:                                   OLS   Adj. R-squared:                  0.294
 Method:                        Least Squares   F-statistic:                     120.7
 Date:                       Thu, 07 Nov 2024   Prob (F-statistic):           1.16e-23
-Time:                               17:46:25   Log-Likelihood:                -945.88
+Time:                               18:55:58   Log-Likelihood:                -945.88
 No. Observations:                        288   AIC:                             1896.
 Df Residuals:                            286   BIC:                             1903.
 Df Model:                                  1                                         
@@ -150,7 +150,7 @@ Dep. Variable:     CIGNA - TOT RETURN IND   R-squared:                       0.2
 Model:                                OLS   Adj. R-squared:                  0.209
 Method:                     Least Squares   F-statistic:                     76.72
 Date:                    Thu, 07 Nov 2024   Prob (F-statistic):           1.76e-16
-Time:                            17:46:25   Log-Likelihood:                -1036.6
+Time:                            18:55:58   Log-Likelihood:                -1036.6
 No. Observations:                     288   AIC:                             2077.
 Df Residuals:                         286   BIC:                             2085.
 Df Model:                               1                                         
@@ -179,7 +179,7 @@ Dep. Variable:     REVVITY - TOT RETURN IND   R-squared:                       0
 Model:                                  OLS   Adj. R-squared:                  0.262
 Method:                       Least Squares   F-statistic:                     103.0
 Date:                      Thu, 07 Nov 2024   Prob (F-statistic):           7.06e-21
-Time:                              17:46:25   Log-Likelihood:                -1037.7
+Time:                              18:55:58   Log-Likelihood:                -1037.7
 No. Observations:                       288   AIC:                             2079.
 Df Residuals:                           286   BIC:                             2087.
 Df Model:                                 1                                         
@@ -208,7 +208,7 @@ Dep. Variable:     MEDTRONIC - TOT RETURN IND   R-squared:                      
 Model:                                    OLS   Adj. R-squared:                  0.382
 Method:                         Least Squares   F-statistic:                     178.2
 Date:                        Thu, 07 Nov 2024   Prob (F-statistic):           6.31e-32
-Time:                                17:46:25   Log-Likelihood:                -857.92
+Time:                                18:55:58   Log-Likelihood:                -857.92
 No. Observations:                         288   AIC:                             1720.
 Df Residuals:                             286   BIC:                             1727.
 Df Model:                                   1                                         
@@ -237,7 +237,7 @@ Dep. Variable:     LABCORP HOLDINGS - TOT RETURN IND   R-squared:               
 Model:                                           OLS   Adj. R-squared:                  0.230
 Method:                                Least Squares   F-statistic:                     86.75
 Date:                               Thu, 07 Nov 2024   Prob (F-statistic):           3.40e-18
-Time:                                       17:46:25   Log-Likelihood:                -979.38
+Time:                                       18:55:58   Log-Likelihood:                -979.38
 No. Observations:                                288   AIC:                             1963.
 Df Residuals:                                    286   BIC:                             1970.
 Df Model:                                          1                                         
@@ -266,7 +266,7 @@ Dep. Variable:     HUMANA - TOT RETURN IND   R-squared:                       0.
 Model:                                 OLS   Adj. R-squared:                  0.228
 Method:                      Least Squares   F-statistic:                     85.70
 Date:                     Thu, 07 Nov 2024   Prob (F-statistic):           5.13e-18
-Time:                             17:46:25   Log-Likelihood:                -1025.8
+Time:                             18:55:58   Log-Likelihood:                -1025.8
 No. Observations:                      288   AIC:                             2056.
 Df Residuals:                          286   BIC:                             2063.
 Df Model:                                1                                         
