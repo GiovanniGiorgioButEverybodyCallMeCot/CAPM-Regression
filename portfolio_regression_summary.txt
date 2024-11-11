@@ -4,8 +4,8 @@ Summary for Porfolio:
 Dep. Variable:     HUMANA - TOT RETURN IND   R-squared:                       0.231
 Model:                                 OLS   Adj. R-squared:                  0.228
 Method:                      Least Squares   F-statistic:                     85.70
-Date:                     Fri, 08 Nov 2024   Prob (F-statistic):           5.13e-18
-Time:                             11:29:43   Log-Likelihood:                -1025.8
+Date:                     Mon, 11 Nov 2024   Prob (F-statistic):           5.13e-18
+Time:                             09:50:16   Log-Likelihood:                -1025.8
 No. Observations:                      288   AIC:                             2056.
 Df Residuals:                          286   BIC:                             2063.
 Df Model:                                1                                         
