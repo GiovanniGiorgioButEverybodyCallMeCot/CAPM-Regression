@@ -1,0 +1,105 @@
+\documentclass[12pt, openright, twoside]{report}
+% Language and encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+% Page layout and margins
+\usepackage[a4paper, margin=1in]{geometry}
+% Graphics and captions
+\usepackage{graphicx}                 % For including images
+\usepackage{subcaption}               % For subfigures (if needed)
+\usepackage[figurename=FIG.]{caption} % Custom figure naming
+\usepackage[tablename=TABLE]{caption} % Custom table naming
+% Math and symbols
+\usepackage{amsmath} % For advanced math commands
+\usepackage{amssymb} % For additional symbols
+\usepackage{bbold}   % For bold mathematical symbols
+% References
+\usepackage[backend=biber, sorting=none]{biblatex} % For references
+\addbibresource{references.bib}                     % Point to your bibliography file
+% Title and section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+% Lists and tables
+\usepackage{enumitem} % For custom lists
+\usepackage{multirow} % For tables with merged rows
+\usepackage{multicol} % For multi-column text (if needed)
+% Typography improvements
+\usepackage{microtype} % Improves text justification and spacing
+% Custom margins for specific content
+\usepackage{changepage} % To change margins for specific sections (e.g., images)
+% Floating objects
+\usepackage{float} % For precise positioning of floats
+% Miscellaneous
+\usepackage{comment} % To comment out large blocks of text
+% TikZ and PGFPlots (if needed for graphs)
+\usepackage{tikz} % For custom graphics
+\usepackage{pgfplots} % For plots and charts
+\pgfplotsset{compat=1.18}
+% Reduce compilation time (useful for TikZ-heavy documents)
+\usepgfplotslibrary{external}
+\tikzexternalize
+% Line spacing
+\renewcommand{\baselinestretch}{1.5}
+% Headers and footers (if customization is needed)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% Configure the fancy header
+\renewcommand{\headrulewidth}{0.4pt} % Adds a horizontal line
+\fancyhead[L]{Martina Arrighini, Luigi Babiski Arruda, Giorgio Cottini, Enrico Paciaroni}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Group Project Report},
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+%-------- Title page -------------------------------------------------------------------------------------------------------%
+
+    \begin{titlepage}
+        \centering
+        \includegraphics[width=0.3\textwidth]{figures/logo_unipd.png}\par\vspace{1cm}
+        {\scshape\LARGE Università degli Studi di Padova \par}
+        \vspace{1.5cm}
+        {\scshape\Large Master Degree Course in Computational Finance \par}
+        \vspace{.2cm}
+        {\scshape\large Regression and Time Series Models \par}
+        \vspace{1.5cm}
+        {\Large\bfseries Group Work 1 - Regression with CAPM Model\par}
+        \vspace{1.5cm}
+        {\itshape Martina Arrighini, 2149799, martina.arrighini@studenti.unipd.it \par}
+        {\itshape Luigi Babiski Arruda, 2031997, luigi.babiskiarruda@studenti.unipd.it\par}
+        {\itshape Giorgio Cottini, 2140740, giorgio.cottini@studenti.unipd.it \par}
+        {\itshape Enirico Paciaroni, 2139678 ,enrico.paciaroni@studenti.unipd.it \par}
+        \vfill
+        Commissioned by: \par
+        Prof. Massimiliano Caporin
+        \vfill
+        {\large A.Y. 2024/2025}
+    \end{titlepage}
+
+\setcounter{page}{1}
+
+%-------- Assignment 1 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 1}
+%-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 2}
+%-------- Assignment 3 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 3}
+%-------- Assignment 4 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 4}
+%-------- Assignment 5 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 5}
+%-------- Assignment 6 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 6}
+%-------- Assignment 7 -----------------------------------------------------------------------------------------------------%
+\section*{Assignment 7}
+\end{document}
