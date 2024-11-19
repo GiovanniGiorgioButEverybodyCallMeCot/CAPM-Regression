@@ -7,8 +7,9 @@
 % Graphics and captions
 \usepackage{graphicx}                 % For including images
 \usepackage{subcaption}               % For subfigures (if needed)
-\usepackage[figurename=FIG.]{caption} % Custom figure naming
-\usepackage[tablename=TABLE]{caption} % Custom table naming
+\usepackage[labelfont=bf, figurename=Fig., tablename=Table, font=small]{caption}
+\captionsetup{font={small, stretch=1.2}} 
+
 % Math and symbols
 \usepackage{amsmath} % For advanced math commands
 \usepackage{amssymb} % For additional symbols
@@ -46,8 +47,7 @@
 \pagestyle{fancy}
 % Configure the fancy header
 \renewcommand{\headrulewidth}{0.4pt} % Adds a horizontal line
-\fancyhead[L]{Martina Arrighini, Luigi Babiski Arruda, Giorgio Cottini, Enrico Paciaroni}
-\fancyhead[R]{}
+\fancyhead[C]{Martina Arrighini, Luigi Babiski Arruda, Giorgio Cottini, Enrico Paciaroni}
 \fancyfoot[C]{\thepage}
 % Hyperlinks
 \usepackage{hyperref}
@@ -66,7 +66,7 @@
 
     \begin{titlepage}
         \centering
-        \includegraphics[width=0.3\textwidth]{figures/logo_unipd.png}\par\vspace{1cm}
+        \includegraphics[width=0.3\textwidth]{images/logo_unipd.png}\par\vspace{1cm}
         {\scshape\LARGE Università degli Studi di Padova \par}
         \vspace{1.5cm}
         {\scshape\Large Master Degree Course in Computational Finance \par}
@@ -78,10 +78,10 @@
         {\itshape Martina Arrighini, 2149799, martina.arrighini@studenti.unipd.it \par}
         {\itshape Luigi Babiski Arruda, 2031997, luigi.babiskiarruda@studenti.unipd.it\par}
         {\itshape Giorgio Cottini, 2140740, giorgio.cottini@studenti.unipd.it \par}
-        {\itshape Enirico Paciaroni, 2139678 ,enrico.paciaroni@studenti.unipd.it \par}
+        {\itshape Enrico Paciaroni, 2139678, enrico.paciaroni@studenti.unipd.it \par}
         \vfill
         Commissioned by: \par
-        Prof. Massimiliano Caporin
+        Prof.\ Massimiliano Caporin
         \vfill
         {\large A.Y. 2024/2025}
     \end{titlepage}
@@ -90,16 +90,56 @@
 
 %-------- Assignment 1 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 1}
+
 %-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 2}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/equities_scatterplot.png}
+    \caption{Scatterplot of equities' log-returns against excess market returns.}\label{fig:equities_scatterplot}
+\end{figure}
+
 %-------- Assignment 3 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 3}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/portfolio_regression.png}
+    \caption{Scatterplot of portfolio's returns against excess market returns, with linear regression.}\label{fig:portfolio_regression}
+\end{figure}
 %-------- Assignment 4 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 4}
 %-------- Assignment 5 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 5}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/chowmoving.png}
+    \caption{Chow Test performed for all equities in search of structural breaks.}\label{fig:chowmoving}
+\end{figure}
 %-------- Assignment 6 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 6}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/rolling_quantities_1.png}
+    \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
+    breaks (1).}\label{fig:rolling_quantities_1}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/rolling_quantities_2.png}
+    \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
+    breaks (2).}\label{fig:rolling_quantities_2}
+\end{figure}
+
 %-------- Assignment 7 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 7}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/Correlation_heatmap.png}
+    \caption{Heatmap of the correlations between the chosen explainatory variables.}\label{fig:Correlation_heatmap}
+\end{figure}
 \end{document}
+
+%-------- Appendix --------------------------------------------------------------------------------------------------------%
+\section*{Appendix}
