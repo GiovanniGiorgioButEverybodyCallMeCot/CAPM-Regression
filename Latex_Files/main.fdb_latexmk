@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1732046906.02199 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1732118106.48996 -1
   "C:/Users/Utente/AppData/Local/Programs/MiKTeX/bibtex/bib/tikz-feynman/references.bib" 1454663014 3843 4744c087bc34b85451b33d95346f9586 ""
-  "main.bcf" 1732046905 106545 85b28d3bd17d19c4948e00350837ea16 "pdflatex"
+  "main.bcf" 1732118105 106545 85b28d3bd17d19c4948e00350837ea16 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732046894.92738 "c:/Users/Utente/OneDrive/Desktop/uni/R&TSM/CAPM-Regression/Latex_Files/main.tex" "main.pdf" "main" 1732046906.02357 0
+["pdflatex"] 1732118093.6568 "c:/Users/Utente/OneDrive/Desktop/uni/R&TSM/CAPM-Regression/Latex_Files/main.tex" "main.pdf" "main" 1732118106.49216 0
   "C:/Users/Utente/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731706471 122695 284aa43fd9596bfdbe93b5e0c6c5df4b ""
   "C:/Users/Utente/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1717052913 24225518 756ff593deab8592bde79d399d203bdc ""
   "C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -225,19 +225,19 @@
   "C:/Users/Utente/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/Utente/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Utente/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Utente/OneDrive/Desktop/uni/R&TSM/CAPM-Regression/Latex_Files/main.tex" 1732046893 6409 b6623b42c8328acad5441a378a93d5c1 ""
+  "c:/Users/Utente/OneDrive/Desktop/uni/R&TSM/CAPM-Regression/Latex_Files/main.tex" 1732118092 6848 d95a032145484f48d6cf7aa832f75ee1 ""
   "images/Correlation_heatmap.png" 1732032101 80583 3f32f373e750c15d07bf6d7d02df9bd9 ""
   "images/chowmoving.png" 1732032088 1743717 54d4123652658b98eabb39bf11d54d3a ""
-  "images/equities_scatterplot.png" 1732034236 377767 1eff916bed5f43a3f72f68ba228f3477 ""
+  "images/equities_scatterplot.png" 1732095196 377767 1eff916bed5f43a3f72f68ba228f3477 ""
   "images/logo_unipd.png" 1731705464 10337 4dc4d77e152db848c4359f35a68c79e8 ""
   "images/portfolio_regression.png" 1732034282 269475 ae262ca07ab51731dd0d51add32a7c66 ""
   "images/rolling_quantities_1.png" 1732033062 393167 524904a8f852fa01ed3c6e04be996f66 ""
   "images/rolling_quantities_2.png" 1732032956 378233 dcc70f35a48a6a48af555dc7f22a3dd7 ""
-  "main.aux" 1732046905 2557 c7ef15761f79c981be42f39ff2f93ee3 "pdflatex"
+  "main.aux" 1732118105 2557 c7ef15761f79c981be42f39ff2f93ee3 "pdflatex"
   "main.bbl" 1731706477 486 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1732046897 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1732046905 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
-  "main.tex" 1732046893 6409 b6623b42c8328acad5441a378a93d5c1 ""
+  "main.out" 1732118097 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1732118105 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.tex" 1732118092 6848 d95a032145484f48d6cf7aa832f75ee1 ""
   (generated)
   "main.aux"
   "main.auxlock"

@@ -3,8 +3,8 @@
 Dep. Variable:     HUMANA - TOT RETURN IND   R-squared:                       0.231
 Model:                                 OLS   Adj. R-squared:                  0.228
 Method:                      Least Squares   F-statistic:                     85.70
-Date:                     Wed, 20 Nov 2024   Prob (F-statistic):           5.13e-18
-Time:                             10:33:38   Log-Likelihood:                -1025.8
+Date:                     Sun, 24 Nov 2024   Prob (F-statistic):           5.13e-18
+Time:                             15:55:37   Log-Likelihood:                -1025.8
 No. Observations:                      288   AIC:                             2056.
 Df Residuals:                          286   BIC:                             2063.
 Df Model:                                1                                         
