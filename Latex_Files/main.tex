@@ -96,40 +96,64 @@
 
 %-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 2}
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/equities_scatterplot.png}
+    \includegraphics[width=0.8\textwidth]{images/equities_scatterplot.png}
     \caption{Scatterplot of equities' log-returns against excess market returns.}\label{fig:equities_scatterplot}
 \end{figure}
 
 %-------- Assignment 3 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 3}
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/portfolio_regression.png}
+    \includegraphics[width=0.8\textwidth]{images/portfolio_regression.png}
     \caption{Scatterplot of portfolio's returns against excess market returns, with linear regression.}\label{fig:portfolio_regression}
 \end{figure}
 %-------- Assignment 4 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 4}
+
 %-------- Assignment 5 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 5}
-\begin{figure}[h!]
+
+In this section, we employ the Chow test to assess whether a significant structural change occurs in the regression models at 
+specific points in time. 
+To ensure the robustness of our analysis, we first established a minimum data subset size for the unrestricted models, 
+setting it to 10\% of the total dataset, in order to maintain statistical validity while preserving sufficient data for
+meaningful comparisons.
+Subsequently, the Chow test was systematically applied to all linear regressions conducted on the selected equities, 
+allowing us to identify potential structural breaks across the dataset, that is, significant changes in the regression
+parameters caused by external shocks, market-wide events, or company-specific factors. 
+These structural breaks may reflect shifts in the relationship between excess returns and market behaviour, such as changes in
+systematic risk $(\beta)$ or the presence of unexplained excess returns $(\alpha)$ due to macroeconomic conditions, regulatory 
+adjustments or sector-specific developments.
+To identify these structural breaks, we analyzed the p-values obtained from the Chow test for each equity over time: 
+a p-value below the threshold of 0.01 was interpreted as evidence of a structural break at that particular point in time,
+signaling that the CAPM parameters had changed significantly.
+The results of this analysis are presented in Figure~\ref{fig:chowmoving}.
+
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/chowmoving.png}
+    \includegraphics[width=0.8\textwidth]{images/chowmoving.png}
     \caption{Chow Test performed for all equities in search of structural breaks.}\label{fig:chowmoving}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/struct_break_freqs.png}
+    \caption{Frequency of months identified as structural break points.}\label{fig:struct_break_freqs}
 \end{figure}
 %-------- Assignment 6 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 6}
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/rolling_quantities_1.png}
+    \includegraphics[width=0.8\textwidth]{images/rolling_quantities_1.png}
     \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
     breaks (1).}\label{fig:rolling_quantities_1}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/rolling_quantities_2.png}
+    \includegraphics[width=0.8\textwidth]{images/rolling_quantities_2.png}
     \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
     breaks (2).}\label{fig:rolling_quantities_2}
 \end{figure}
@@ -137,9 +161,9 @@
 %-------- Assignment 7 -----------------------------------------------------------------------------------------------------%
 \section*{Assignment 7}
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/Correlation_heatmap.png}
+    \includegraphics[width=0.8\textwidth]{images/Correlation_heatmap.png}
     \caption{Heatmap of the correlations between the chosen explainatory variables.}\label{fig:Correlation_heatmap}
 \end{figure}
 %-------- Appendix --------------------------------------------------------------------------------------------------------%
