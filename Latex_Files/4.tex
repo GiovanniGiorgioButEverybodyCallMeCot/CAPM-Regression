@@ -1,0 +1,21 @@
+This section validates the reliability of the CAPM model through diagnostic tests. 
+These tests aim to ensure that key assumptions, such as constant residual variance (homoscedasticity) and the absence of 
+autocorrelation, are satisfied. When violations are detected, adjustments, such as robust standard errors, are applied to 
+improve the reliability of the results.
+The results confirm that the CAPM model effectively explains the returns of many stocks in the Healthcare sector. 
+For example, Johnson \& Johnson ($\beta$=0.752, p<0.01) and Pfizer ($\beta$=0.953, p<0.01) show significant $\beta$
+coefficients, indicating their sensitivity to market movements.
+High $R^2$ values suggest that a substantial portion of the return variability is explained by the model.
+However, for stocks like Cigna and Labcorp Holdings, lower $R^2$ values point to the potential influence of idiosyncratic 
+factors not captured by the CAPM.
+The diagnostic tests highlight some limitations. For instance, the White Test identifies heteroscedasticity in stocks such as 
+Johnson \& Johnson and Humana, indicating that residual variance is not constant. 
+To address this issue, we applied robust standard errors (HAC). 
+Additionally, the Breusch-Godfrey Test reveals autocorrelation in the residuals for Labcorp Holdings, requiring further 
+adjustments to ensure the validity of the model. 
+Despite these challenges, the F-statistics and regression p-values confirm the overall significance of the model.
+The analysis of the equally weighted portfolio further supports these results. 
+Diversification reduces idiosyncratic risk and enhances the stability of parameter estimates. 
+Compared to individual stocks, the portfolio demonstrates a stronger and more consistent linear relationship with market 
+returns, reinforcing the applicability of the CAPM model at an aggregate level.
+
