@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.30)  26 NOV 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.30)  27 NOV 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1079,7 +1079,7 @@ Package hyperref Info: Link coloring ON on input line 78.
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-<images/logo_unipd.png, id=54, 335.2525pt x 151.56625pt>
+<images/logo_unipd.png, id=74, 335.2525pt x 151.56625pt>
 File: images/logo_unipd.png Graphic file (type png)
 <use images/logo_unipd.png>
 Package pdftex.def Info: images/logo_unipd.png  used on input line 84.
@@ -1125,11 +1125,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.112 \chapter
-              {} [1
+              *{Introduction} [1
+
+] [2
 
 ]
 Chapter 1.
-(1.tex) [2
+(1.tex) [3
 
 ]
 Chapter 2.
@@ -1138,7 +1140,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11
  (C:\Users\Utente\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<images/equities_scatterplot.png, id=85, 1011.78pt x 1445.4pt>
+<images/equities_scatterplot.png, id=115, 1011.78pt x 1445.4pt>
 File: images/equities_scatterplot.png Graphic file (type png)
 <use images/equities_scatterplot.png>
 Package pdftex.def Info: images/equities_scatterplot.png  used on input line 26.
@@ -1147,7 +1149,7 @@ Package pdftex.def Info: images/equities_scatterplot.png  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3
+) [4
 
 {C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
@@ -1157,10 +1159,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./images/equities_scatterplot.png>]
+[5 <./images/equities_scatterplot.png>]
 Chapter 3.
 (3.tex
-<images/portfolio_regression.png, id=101, 505.89pt x 361.35pt>
+<images/portfolio_regression.png, id=131, 505.89pt x 361.35pt>
 File: images/portfolio_regression.png Graphic file (type png)
 <use images/portfolio_regression.png>
 Package pdftex.def Info: images/portfolio_regression.png  used on input line 25.
@@ -1169,7 +1171,7 @@ Package pdftex.def Info: images/portfolio_regression.png  used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [5
+) [6
 
 ]
 
@@ -1179,14 +1181,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./images/portfolio_regression.png>]
+[7 <./images/portfolio_regression.png>]
 Chapter 4.
-(4.tex) [7
+(4.tex) [8
 
 ]
 Chapter 5.
 (5.tex
-<images/chowmoving.png, id=118, 1011.78pt x 1445.4pt>
+<images/chowmoving.png, id=148, 1011.78pt x 1445.4pt>
 File: images/chowmoving.png Graphic file (type png)
 <use images/chowmoving.png>
 Package pdftex.def Info: images/chowmoving.png  used on input line 22.
@@ -1195,7 +1197,7 @@ Package pdftex.def Info: images/chowmoving.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8
+[9
 
 ]
 
@@ -1205,8 +1207,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./images/chowmoving.png>]
-<images/struct_break_freqs.png, id=131, 716.9184pt x 398.9304pt>
+[10 <./images/chowmoving.png>]
+<images/struct_break_freqs.png, id=161, 716.9184pt x 398.9304pt>
 File: images/struct_break_freqs.png Graphic file (type png)
 <use images/struct_break_freqs.png>
 Package pdftex.def Info: images/struct_break_freqs.png  used on input line 41.
@@ -1219,8 +1221,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./images/struct_break_freqs.png>]
-<images/portchowlio.png, id=139, 499.3857pt x 339.669pt>
+[11 <./images/struct_break_freqs.png>]
+<images/portchowlio.png, id=169, 499.3857pt x 339.669pt>
 File: images/portchowlio.png Graphic file (type png)
 <use images/portchowlio.png>
 Package pdftex.def Info: images/portchowlio.png  used on input line 84.
@@ -1237,7 +1239,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[12]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1245,27 +1247,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./images/portchowlio.png>]
+[13 <./images/portchowlio.png>]
 Chapter 6.
 (6.tex
-<images/rolling_quantities_1.png, id=152, 1026.9567pt x 1439.6184pt>
+<images/rolling_quantities_1.png, id=182, 1026.9567pt x 1439.6184pt>
 File: images/rolling_quantities_1.png Graphic file (type png)
 <use images/rolling_quantities_1.png>
-Package pdftex.def Info: images/rolling_quantities_1.png  used on input line 3.
+Package pdftex.def Info: images/rolling_quantities_1.png  used on input line 9.
 (pdftex.def)             Requested size: 362.37569pt x 507.98178pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/rolling_quantities_2.png, id=153, 1026.9567pt x 1444.6773pt>
+<images/rolling_quantities_2.png, id=183, 1026.9567pt x 1444.6773pt>
 File: images/rolling_quantities_2.png Graphic file (type png)
 <use images/rolling_quantities_2.png>
-Package pdftex.def Info: images/rolling_quantities_2.png  used on input line 9.
+Package pdftex.def Info: images/rolling_quantities_2.png  used on input line 15.
 (pdftex.def)             Requested size: 362.37569pt x 509.76686pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [13
+[14
 
 ]
 
@@ -1275,7 +1277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./images/rolling_quantities_1.png>]
+[15{C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1283,28 +1285,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./images/rolling_quantities_2.png>]
+[16])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./images/rolling_quantities_1.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./images/rolling_quantities_2.png>]
 Chapter 7.
 (7.tex
-<images/Correlation_heatmap.png, id=170, 578.16pt x 433.62pt>
+<images/Correlation_heatmap.png, id=216, 578.16pt x 433.62pt>
 File: images/Correlation_heatmap.png Graphic file (type png)
 <use images/Correlation_heatmap.png>
 Package pdftex.def Info: images/Correlation_heatmap.png  used on input line 4.
 (pdftex.def)             Requested size: 362.37569pt x 271.77934pt.
-) [16
+) [20
 
  <./images/Correlation_heatmap.png>]
-Chapter 8.
-[17
-
-]
-Chapter 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
-[18
+[21
 
 ] (main.aux)
  ***********
@@ -1312,23 +1332,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4AC5604CF72BB0003B94F6E5F8C5044A;1833.
+(rerunfilecheck)             Checksum: 8F29E6BEB5DDAF02E882C3F45B807B7F;2500.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43860 strings out of 474486
- 986511 string characters out of 5743283
- 1933542 words of memory out of 5000000
- 65308 multiletter control sequences out of 15000+600000
- 615637 words of font info for 131 fonts, out of 8000000 for 9000
+ 43902 strings out of 474486
+ 987110 string characters out of 5743283
+ 1935542 words of memory out of 5000000
+ 65322 multiletter control sequences out of 15000+600000
+ 619284 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,1072b,1896s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (19 pages, 3620683 bytes).
+<C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (22 pages, 3643078 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 34970 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 37058 words of extra memory for PDF output out of 42996 (max. 10000000)
 

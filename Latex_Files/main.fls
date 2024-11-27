@@ -534,6 +534,8 @@ INPUT .\images\rolling_quantities_2.png
 INPUT .\images\rolling_quantities_2.png
 INPUT .\images\rolling_quantities_2.png
 INPUT .\images\rolling_quantities_2.png
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT .\7.tex
 INPUT .\7.tex
 INPUT 7.tex
@@ -557,6 +559,8 @@ INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc1
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
@@ -565,3 +569,5 @@ INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.p
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Utente\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb

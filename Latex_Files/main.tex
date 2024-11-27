@@ -33,9 +33,9 @@
 % Floating objects
 \usepackage{float} % For precise positioning of floats
 % Miscellaneous
-\usepackage{comment} % To comment out large blocks of text
+\usepackage{comment}  % To comment out large blocks of text
 % TikZ and PGFPlots (if needed for graphs)
-\usepackage{tikz} % For custom graphics
+\usepackage{tikz}     % For custom graphics
 \usepackage{pgfplots} % For plots and charts
 \pgfplotsset{compat=1.18}
 % Reduce compilation time (useful for TikZ-heavy documents)
@@ -92,9 +92,9 @@
         \vspace{2cm}
         Created by:\par
         {\itshape{Martina Arrighini, 2149799, martina.arrighini@studenti.unipd.it}\par}
-        {\itshape Luigi Babiski Arruda, 2031997, luigi.babiskiarruda@studenti.unipd.it\par}
-        {\itshape Giorgio Cottini, 2140740, giorgio.cottini@studenti.unipd.it \par}
-        {\itshape Enrico Paciaroni, 2139678, enrico.paciaroni@studenti.unipd.it \par}
+        {\itshape{Luigi Babiski Arruda, 2031997, luigi.babiskiarruda@studenti.unipd.it}\par}
+        {\itshape{Giorgio Cottini, 2140740, giorgio.cottini@studenti.unipd.it}\par}
+        {\itshape{Enrico Paciaroni, 2139678, enrico.paciaroni@studenti.unipd.it}\par}
         \vfill
         Commissioned by:\par
         Prof.\ Massimiliano Caporin
@@ -102,14 +102,17 @@
         {\large A.Y. 2024/2025}
     \end{titlepage}
 
+% Start counting pages
 \setcounter{page}{1}
 
 %-------- Table of Contents ------------------------------------------------------------------------------------------------%
-
 \tableofcontents
 
+%-------- Introduction -----------------------------------------------------------------------------------------------------%
+\chapter*{Introduction}
+
 %-------- Assignment 1 -----------------------------------------------------------------------------------------------------%
-\chapter{}
+\chapter{Data Choice and Download}
 \input{1.tex}\label{chapter:download}
 
 %-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
@@ -121,7 +124,7 @@
 \input{3.tex}
 
 %-------- Assignment 4 -----------------------------------------------------------------------------------------------------%
-\chapter{Diagnostic Tests}\label{diagnostic_tests}
+\chapter{Diagnostic Tests}\label{chapter:diagnostic_tests}
 \input{4.tex}
 
 %-------- Assignment 5 -----------------------------------------------------------------------------------------------------%
@@ -137,10 +140,11 @@
 \input{7.tex}
 
 %-------- Appendix --------------------------------------------------------------------------------------------------------%
-\chapter{Appendix}
+\chapter*{Appendix}\label{chapter:appendix}
 
 %-------- Roles Summary ---------------------------------------------------------------------------------------------------%
-\chapter{Summary of Group Members' Contribution}
+
+\section*{Summary of Group Members' Contribution}
 
 \textbf{Martina Arrighini:}\\
 \textbf{Luigi Babiski Arruda:}\\ 
