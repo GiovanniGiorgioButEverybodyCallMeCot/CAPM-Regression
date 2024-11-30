@@ -9,6 +9,7 @@
 \usepackage{subcaption}               % For subfigures (if needed)
 \usepackage[labelfont=bf, figurename=Fig., tablename=Table, font=small]{caption}
 \captionsetup{font={small, stretch=1.2}} 
+\usepackage[table,xcdraw]{xcolor}
 
 % Math and symbols
 \usepackage{amsmath} % For advanced math commands
@@ -63,7 +64,7 @@
 \renewcommand{\headrulewidth}{0.4pt} % Adds a horizontal line to the header
 
 \usepackage{lmodern} % Use Latin Modern scalable fonts
-
+\definecolor{unired}{RGB}{176,0,0}
 % Hyperlinks
 \usepackage{hyperref}
 \hypersetup{
@@ -108,9 +109,21 @@
 %-------- Table of Contents ------------------------------------------------------------------------------------------------%
 \tableofcontents
 
-%-------- Introduction -----------------------------------------------------------------------------------------------------%
-\chapter*{Introduction}
+%-------- Overview ---------------------------------------------------------------------------------------------------------%
+\chapter*{Overview}
+This report analyzes the Healthcare sector within the Euro Stoxx 600 index, using data from October 2000 to October 2024 to
+evaluate the applicability of the Capital Asset Pricing Model (CAPM). 
+The Healthcare sector, known for its inelastic demand, high entry barriers, and resilience, provides a compelling context for 
+assessing risk-return dynamics.
 
+Using Ordinary Least Squares (OLS) regression, we estimate CAPM parameters, including alpha, beta, and R-squared, for both 
+individual equities and an equally weighted portfolio. Diagnostic tests, such as the White and Breusch-Godfrey tests, ensure 
+the robustness of the model. Additionally, a multifactor model based on the Fama-French framework is introduced to compare its
+explanatory power with that of the CAPM.
+
+Structural breaks in the data are analyzed using the Chow test and a rolling window approach, providing insights into 
+parameter stability over time. This collaborative effort aims to deliver a comprehensive evaluation of the CAPM and 
+multifactor models, offering valuable insights into the financial dynamics of the Healthcare sector.
 %-------- Assignment 1 -----------------------------------------------------------------------------------------------------%
 \chapter{Data Choice and Download}
 \input{1.tex}\label{chapter:download}
@@ -146,7 +159,26 @@
 
 \section*{Summary of Group Members' Contribution}
 
+Table~\ref{tab:group_contribution} provides a detailed breakdown of each group member's contributions to the project. 
+Notably, Giorgio Cottini also supervised the overall coding process and authored the accompanying LaTeX script.\\
 
+\begin{table}[htbp]
+    \centering
+    \renewcommand{\arraystretch}{1.2} % Adjust row height
+    \begin{tabular}{|c|l|l|}
+        \hline
+        \rowcolor{unired!40} \textbf{Assignment} & \textbf{Code}              & \textbf{Comment}         \\ \hline
+        Assignment 1        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
+        \rowcolor{gray!10} Assignment 2        & Luigi Babiski             & Martina Arrighini        \\ \hline
+        Assignment 3        & Giorgio Cottini           & Martina Arrighini        \\ \hline
+        \rowcolor{gray!10} Assignment 4        & Martina Arrighini         & Martina Arrighini        \\ \hline
+        Assignment 5        & Giorgio Cottini           & Giorgio Cottini          \\ \hline
+        \rowcolor{gray!10} Assignment 6        & Luigi Babiski             & Luigi Babiski            \\ \hline
+        Assignment 7        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
+    \end{tabular}
+    \caption{Contribution of Group Members to Assignments}
+    \label{tab:group_contribution}
+\end{table}
 
 %---------------------------------------------------------------------------------------------------------------------------%
 
