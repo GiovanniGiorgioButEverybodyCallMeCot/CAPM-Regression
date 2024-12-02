@@ -1,0 +1,34 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Data Choice and Download}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Data Collection}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Data Preparation}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Preliminary Visualization}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Relationship Between Stock and Market Returns}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Linear Relationships and the CAPM Model}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Weaker Correlations and Unique Factors}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Outliers and Non-Linear Trends}{7}{section.2.3}%
+\contentsline {chapter}{\numberline {3}CAPM Regression}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Regression Results for Individual Stocks}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Performance of the Weighted Portfolio}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Impact of Diversification}{11}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Diagnostic Tests}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Significance of $\beta $ and $R^2$ Values}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Heteroscedasticity Issues}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Autocorrelation in Residuals}{13}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Chow Test}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structural Breaks and Chow Test}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Periods of Shared Structural Breaks}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Chow Test on Portfolio}{18}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Rolling CAPM Stability Analysis}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Comparisons with the Chow Test}{20}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}2008}{20}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}2014-2016}{23}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}2020-2022}{23}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Alpha \& Beta}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}R-squared}{25}{section.6.3}%
+\contentsline {section}{\numberline {6.4}The portfolio}{26}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Multivariate Regression}{27}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Model Introduction and Variables}{27}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Model Building and Refinement}{28}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Comparative Analysis}{31}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Residual Analysis:}{31}{subsection.7.2.2}%
