@@ -1,23 +1,17 @@
-This section validates the reliability of the CAPM model through diagnostic tests. 
-These tests aim to ensure that key assumptions, such as constant residual variance (homoscedasticity) and the absence of 
-autocorrelation, are satisfied. When violations are detected, adjustments, such as robust standard errors, are applied to 
-improve the reliability of the results.
-The results confirm that the CAPM model effectively explains the returns of many stocks in the Healthcare sector. 
-For example, Johnson \& Johnson ($\beta$=0.752, p$<$0.01) and Pfizer ($\beta$=0.953, p$<$0.01) show significant $\beta$
-coefficients, indicating their sensitivity to market movements.
-High $R^2$ values suggest that a substantial portion of the return variability is explained by the model.
-However, for stocks like Cigna and Labcorp Holdings, lower $R^2$ values point to the potential influence of idiosyncratic 
-factors not captured by the CAPM.
-The diagnostic tests highlight some limitations. For instance, the White Test identifies heteroscedasticity in stocks such as 
-Johnson \& Johnson and Humana, indicating that residual variance is not constant. 
-To address this issue, we applied robust standard errors (HAC). 
-Additionally, the Breusch-Godfrey Test reveals autocorrelation in the residuals for Labcorp Holdings, requiring further 
-adjustments to ensure the validity of the model. 
-Despite these challenges, the F-statistics and regression p-values confirm the overall significance of the model.
-The analysis of the equally weighted portfolio further supports these results. 
-Diversification reduces idiosyncratic risk and enhances the stability of parameter estimates. 
-Compared to individual stocks, the portfolio demonstrates a stronger and more consistent linear relationship with market 
-returns, reinforcing the applicability of the CAPM model at an aggregate level.
+\section{Significance of $\beta$ and $R^2$ Values}
+The results of the CAPM regression, displayed in Table~\ref{tab:equity_results}, confirm the model's ability to explain the 
+returns of many stocks. 
+Stocks like Johnson \& Johnson ($\beta$=0.752, $R^2$=0.458) and Pfizer ($\beta$=0.953, $R^2$=0.449) exhibit significant
+$\beta$ coefficients and high $R^2$ values, indicating strong sensitivity to market movements. 
+These results validate the CAPM model's assumption that systematic risk is the primary driver of returns for these stocks.
+However, stocks with lower $R^2$ values, such as Cigna and Labcorp Holdings, suggest the presence of significant idiosyncratic 
+risks or external factors that are not captured by the CAPM framework.
+These findings emphasize the model's limitations when applied to companies influenced by unique events or niche market 
+dynamics.
+To improve the model's accuracy for such cases, additional factors, such as industry-specific risks or macroeconomic
+variables, could be incorporated. 
+This would help account for variability that the CAPM model alone cannot explain, particularly for stocks with lower market 
+correlations.
 
 \begin{table}
     \centering
@@ -40,3 +34,23 @@ returns, reinforcing the applicability of the CAPM model at an aggregate level.
     \caption{Regression results for each equity, including Beta, p-values, and various test results.}
     \label{tab:equity_results}
 \end{table}
+
+\section{Heteroscedasticity Issues}
+The White Test identifies heteroscedasticity in stocks such as Johnson \& Johnson and Humana, indicating non-constant residual variance. This violation of CAPM assumptions suggests that the reliability of the regression results may be compromised, as standard errors may be underestimated or overestimated.
+To address this issue, robust standard errors (HAC) were applied, which adjust for heteroscedasticity and provide more reliable parameter estimates. These adjustments ensure that the significance levels of $\beta$ coefficients remain valid despite violations of homoscedasticity.
+Future analyses could explore whether specific periods or events contribute to heteroscedasticity. Understanding these patterns may help refine the CAPM model's application to stocks affected by irregular variance in their residuals.
+
+\section{Autocorrelation in Residuals}
+The Breusch-Godfrey Test detects autocorrelation in stocks such as Labcorp Holdings, suggesting that the residuals are not 
+independently distributed.
+This violates the CAPM assumption of no autocorrelation, which can lead to biased parameter estimates and reduced model 
+reliability.
+To mitigate the impact of autocorrelation, adjustments such as incorporating lagged variables or alternative error correction
+methods can be applied. 
+These techniques improve the robustness of the regression results and enhance the reliability of the CAPM model for stocks 
+with autocorrelated returns.
+Despite these challenges, the CAPM model remains effective for analyzing diversified portfolios.
+The reduction of idiosyncratic risks and the alignment of residuals with model assumptions further support its applicability 
+at an aggregate level.
+However, for individual stocks with significant deviations, additional diagnostic tools and model refinements are necessary to 
+ensure accurate analysis.

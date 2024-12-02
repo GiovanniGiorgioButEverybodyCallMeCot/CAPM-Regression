@@ -1,31 +1,31 @@
-In thi assignment, we gathered and prepared the necessary data for analyzing the Healthcare sector within the Euro Stoxx 600
+In this assignment, we gathered and prepared the necessary data for analyzing the Healthcare sector within the Euro Stoxx 600
 index. 
 The data includes total return indices for individual stocks, risk-free interest rates, and the market index for the
 healthcare sector.
 
-\textbf{Data Collection}
+\section{Data Collection}
 \begin{itemize}
-    \item \textbf{Total Return Indices:} We downloaded the total return indices for ten companies within the Healthcare sector.
+    \item \textbf{Total Return Indices:} We obtained the total return indices for ten companies within the Healthcare sector.
     These companies were selected based on the availability of complete data from 2000 to 2024.
-    \item \textbf{Market Index:} The Euro Stoxx 600 Health Care index was used as a proxy for the overall market performance
+    \item \textbf{Market Index:} The Euro Stoxx 600 Health Care index was used as a benchmark for the overall market performance
     within the sector.
     \item \textbf{Risk-Free Rates:} Monthly risk-free interest rates were derived from annualized Federal Reserve data to
     compute excess returns.
 \end{itemize}
 
-\textbf{Data Preparation}
+\section{Data Preparation}
 
 \begin{itemize}
     \item \textbf{Return Calculation:} Monthly returns were calculated using logarithmic differences in prices. This method 
     ensures that the data is approximately normally distributed and facilitates economic interpretation.
-    \item \textbf{Excess Returns:} Stock and market returns were adjusted by subtracting the risk-free rate, aligning with the 
+    \item \textbf{Excess Returns:} Stock and market returns were adjusted by subtracting the risk-free rate, consistent with the 
     CAPM framework.
-    \item \textbf{Data Quality Checks:} All datasets were thoroughly checked for missing or duplicate values to ensure the 
+    \item \textbf{Data Quality Checks:} The datasets were thoroughly examined for missing or duplicate values to ensure the 
     robustness of subsequent analyses.
 
 \end{itemize}
 
-\textbf{Preliminary Visualizations}
+\section{Preliminary Visualization}
 Scatter plots were created to examine the relationship between stock excess returns and market excess returns. 
 These plots showed a clear linear relationship for most equities, supporting the applicability of the CAPM. 
 However, some observations indicated potential outliers, which will be analyzed further in later steps.

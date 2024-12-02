@@ -10,7 +10,7 @@
 \usepackage[labelfont=bf, figurename=Fig., tablename=Table, font=small]{caption}
 \captionsetup{font={small, stretch=1.2}} 
 \usepackage[table,xcdraw]{xcolor}
-
+\usepackage{makecell} % Literally just to have the command '\Xhline' in a table, i hate this
 % Math and symbols
 \usepackage{amsmath} % For advanced math commands
 \usepackage{amssymb} % For additional symbols
@@ -129,11 +129,11 @@ multifactor models, offering valuable insights into the financial dynamics of th
 \input{1.tex}\label{chapter:download}
 
 %-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
-\chapter{Equity Returns}\label{chapter:equity_returns}
+\chapter{Relationship Between Stock and Market Returns}\label{chapter:equity_returns}
 \input{2.tex}
 
 %-------- Assignment 3 -----------------------------------------------------------------------------------------------------%
-\chapter{Linear Regression}\label{chapter:linear_regression}
+\chapter{CAPM Regression}\label{chapter:linear_regression}
 \input{3.tex}
 
 %-------- Assignment 4 -----------------------------------------------------------------------------------------------------%

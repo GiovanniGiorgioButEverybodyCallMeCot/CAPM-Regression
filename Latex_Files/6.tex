@@ -1,16 +1,16 @@
 This section discusses the results of a rolling window analysis of the parameters from the previous regression models between 
 2006 and 2024.
-The first subsection compares the rolling window analysis with the Chow test results from Assignment 5.
+The first subsection compares the rolling window analysis with the Chow test results from Assignment~\ref{chapter:chow_test}.
 The following three sections focus on analyzing the parameters (Alpha and Beta), the R-squared and the portfolio,
 respectively.
 
-\begin{figure}[h]
+\begin{figure}[p]
     \centering
     \includegraphics[width=0.8\textwidth]{images/rolling_quantities_1.png}
     \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
     breaks (1).}\label{fig:rolling_quantities_1}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
     \centering
     \includegraphics[width=0.8\textwidth]{images/rolling_quantities_2.png}
     \caption{Rolling quantities computed an all equities as an alternative of the Chow Test in search for structural
@@ -28,29 +28,30 @@ the Affordable Care Act (ObamaCare), and the COVID-19 pandemic, respectively.
 All regression models had a break date signaled by the RW analysis around the end of 
 2008. This is coherent with the results of the Chow test, that indicated structural breaks 
 for all stocks in those periods, with the exception of Labcorp Holdings. 
-With regards to Labcorp Holdings, the only visible change of its parameter around that 
+With regard to Labcorp Holdings, the only visible change of its parameter around that 
 date is a sharp drop of its Beta, which quickly bounced back to its previous level.  
 Apparently the Chow test didn't regard this as a significant parameter change.
 
-%\begin{figure}[h!]
- %   \centering
-  %  \includegraphics[width=0.8\textwidth]{images/beta_labcorp.png}
-   % \caption{Frequency of months identified as structural break points.}\label{fig:beta_labcorp}
-%\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/arrow1.png}
+    \caption{Sharp drop of Beta parameter in Labcorp Holdings.}\label{fig:arrow1}
+\end{figure}
 
 \subsection{2014-2016}
 
 In these dates the results of the Chow Test and of the RW analysis are not always linked. 
 The RW analysis detected parameter changes for 6 stocks in this period: Johnson \& Johnson, Teleflex, Eli Lilly, Humana,
-Boston Scientific and Cigna.
+Boston Scientific and Cigna, the last two being displayed in Figure~\ref{fig:arrow2}.
 The Chow test, however, failed to detect structural shifts in the parameters of Boston Scientific and Cigna, despite them 
 visually indicating important changes.
 
-%\begin{figure}[h!]
- %   \centering
-  %  \includegraphics[width=0.8\textwidth]{images/beta_labcorp.png}
-   % \caption{Frequency of months identified as structural break points.}\label{fig:beta_labcorp}
-%\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/arrow2.png}
+    \includegraphics[width=0.8\textwidth]{images/arrow3.png}
+    \caption{Possible break dates identified by the rolling window.}\label{fig:arrow2}
+\end{figure}
 
 \subsection{2020-2022}
 
@@ -72,7 +73,7 @@ There are, however, a few exceptions:
 \end{itemize}
 
 According to the CAPM model and the Efficient Market Theory, the parameter Alpha should be null, since variables are expressed
-in excess returns (the risk-free rate is implicit).
+in excess returns (the risk-free rate is implicit), this is consistent with Equation~\ref{equation:CAPM}.
 \begin{equation}
     r^{e}_{i} = \beta * r^{e}_{m} + \eta
 \end{equation}\label{equation:CAPM}
@@ -87,7 +88,7 @@ However, when Alpha is different from zero in the regression model it can mean 2
 
 So, when a stock has its Alpha constantly increasing it may be a signal of the existence of positive external variables that
 the market hasn't yet incorporated in the stock's price—market inefficiency. That seems to be the case of Eli Lilly.
-The Beta, on the other hand, may assume non null values and still be coherent with the CAPM model. 
+The Beta, on the other hand, may assume non-null values and still be coherent with the CAPM model. 
 From a statistical point of view, Beta represents the sensitivity of a stock's excess returns to the industry's excess returns.
 Whereas from an economical point of view Beta measures the sensitivity to systematic risk (economic downturns, interest rate 
 changes, geopolitical events).
