@@ -8,12 +8,11 @@ meaningful comparisons.
 Subsequently, the Chow test was systematically applied to all linear regressions conducted on the selected equities, 
 allowing us to identify potential structural breaks across the dataset, that is, significant changes in the regression
 parameters caused by external shocks, market-wide events, or company-specific factors. 
-These structural breaks may reflect shifts in the relationship between excess returns and market behaviour, such as changes in
-systematic risk $(\beta)$ or the presence of unexplained excess returns $(\alpha)$ due to macroeconomic conditions, regulatory 
-adjustments or sector-specific developments.
-To identify these structural breaks, we analyzed the p-values obtained from the Chow test for each equity over time: 
-a p-value below the threshold of 0.01 was interpreted as evidence of a structural break at that particular point in time,
-signaling that the CAPM parameters had changed significantly.
+Structural breaks may reflect changes in the relationship between excess returns and market behavior, such as shifts in 
+systematic risk $(\beta)$ or unexplained excess returns $(\alpha)$, driven by macroeconomic conditions,
+regulatory adjustments, or sector developments.
+Structural breaks were identified by analyzing the p-values from the Chow test over time: a p-value below 0.01 indicated a
+significant change in CAPM parameters at that point.
 In this analysis, only periods of at least two consecutive months with p-values below the threshold were considered as
 break dates, ensuring that the identified breaks reflect sustained shifts rather than noise or transient fluctuations.
 
@@ -36,6 +35,7 @@ Despite these observations, no clear or consistent pattern of structural breaks 
 potential commonalities further, an additional histogram was generated (Figure~\ref{fig:struct_break_freqs}), which illustrates
 the frequency and overlap of structural breaks shared among different equities.
 
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/struct_break_freqs.png}
@@ -43,41 +43,44 @@ the frequency and overlap of structural breaks shared among different equities.
 \end{figure}
 
 Figure~\ref{fig:struct_break_freqs} highlights two important aspects of the data: 
-first, there is no single period that constitutes a break date for all equities; the maximum number of companies sharing a 
-structural break at any given time is in fact 4. 
-Nonetheless, the break dates identified as significant changes to the regression parameters align closely with expectations,
-in fact the data reveal break dates significantly relevant in three distinct periods of time:
-\begin{itemize}
+first, there is no single period that constitutes a break date for all equities, the maximum number of companies sharing a 
+structural break at any given time is in fact 4; second, the identified break dates align closely with known economic and
+market events.
+Specifically, the data reveal three distinct periods of significant relevance, indicating concentrated structural breaks 
+that may correspond to external shocks or sector-wide disruptions, those periods are:
+
+\begin{enumerate}
     \item  \textbf{2003}: Structural breaks are observed throughout most of the year, coinciding with the SARS epidemic. 
     This period also aligns with economic and legislative developments, including the introduction of the Medicare
     Modernization Act, which reshaped healthcare policy and access in the United States.
     \item \textbf{October and November 2008}: These months mark the onset of the 2008/2009 financial crisis.
     \item \textbf{February and March 2020}: Structural breaks during this time correspond to the emergence of the COVID-19
     pandemic and the widespread implementation of precautionary measures.
-\end{itemize}
+\end{enumerate}
 
 An important observation is that the structural breaks identified in 2003 extended over a prolonged period, spanning multiple
-consecutive months, whereas the impact of the COVID-19 pandemic appears to have been more concentrated and shorter in duration.
+consecutive months, whereas the impact of the COVID-19 pandemic appears to have been more concentrated and shorter in duration
+(see Figure~\ref{fig:struct_break_freqs}).
 The prolonged effect in 2003 could reflect the gradual adjustment of the healthcare market to the SARS epidemic and concurrent
 economic and legislative changes.
-In contrast, the shorter duration of structural breaks during COVID-19 may suggest that lessons learned from the SARS outbreak,
-including the implementation of precautionary measures and improved epidemic preparedness, helped mitigate the impact of
-subsequent epidemics on the healthcare market.
+In contrast, the shorter duration of structural breaks during COVID-19 may indicate that advancements in epidemic preparedness,
+such as improved healthcare infrastructure, rapid vaccine development, and the implementation of targeted government 
+interventions, helped mitigate the impact of the pandemic on the healthcare market. 
 Alternatively, the healthcare market may have simply grown so significantly in size and diversification over time that it 
 developed a level of resilience that enables it to absorb and adapt to substantial disruptions in the economic landscape.
-This growth, coupled with advancements in technology, expanded infrastructure, and more robust financial mechanisms,
-might have contributed to the market's ability to withstand even major shocks, such as those caused by the 2008 crisis and
-the COVID-19 pandemic.
-This explanation also accounts for the observation that the majority of equities were not significantly impacted during these
-events: the increased resilience and diversification of the healthcare market may have allowed many companies to maintain
-stability despite the broader economic disruptions.
+This explanation also accounts for the observation that, according to the Chow test, the majority of equities were not
+significantly impacted during these events: the increased resilience and diversification of the healthcare market may have
+allowed many companies to maintain stability despite the broader economic disruptions.
+While these hypotheses provide potential explanations for the observed differences, a thorough investigation into these claims
+is beyond the scope of this analysis.
+
 
 \section{Chow Test on Portfolio}
 
 In order to further investigate the impact of significant events in the economic environment, the same Chow test was 
 performed on the excess returns of the portfolio. 
-This approach aggregates the behavior of individual equities into a single measure, allowing for the identification of 
-systemic disruptions across the healthcare market.
+This approach aggregates the behavior of individual equities into a single measure, possibly allowing for the identification 
+of systemic disruptions across the healthcare market.
 
 \begin{figure}[h!]
     \centering
@@ -85,6 +88,13 @@ systemic disruptions across the healthcare market.
     \caption{Frequency of months identified as structural break points.}\label{fig:portchowlio}
 \end{figure}
 
-The results, displayed in Figure~\ref{fig:portchowlio}, reveal that there is only one time period in which structural breaks 
-in the portfolio's return dynamics are particularly significant: that is the beginning of 2009, likely reflecting the
-aftermath of the 2008 financial crisis.
+The results, displayed in Figure~\ref{fig:portchowlio}, show that the Chow test identifies a single time period with
+particularly significant structural breaks in the portfolio's return dynamics: the beginning of 2009, likely reflecting the 
+delayed impact of the 2008 financial crisis; this suggests that the crisis, while primarily affecting financial markets, 
+also influenced the healthcare sector, albeit with a small lag.
+Interestingly, the portfolio-level analysis contrasts with the results for individual equities, where multiple periods of 
+structural breaks were observed.
+Aggregating returns into a portfolio may have smoothed out smaller, company-specific disruptions, highlighting only the
+most prominent systemic events.
+Overall, the results emphasize that significant structural breaks in the healthcare market's portfolio-level returns are rare,
+occurring primarily during periods of severe financial or economic crises.

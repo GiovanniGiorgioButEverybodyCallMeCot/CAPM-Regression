@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.30)  2 DEC 2024 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.30)  3 DEC 2024 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1295,7 +1295,7 @@ Chapter 5.
 <images/chowmoving.png, id=260, 1011.78pt x 1445.4pt>
 File: images/chowmoving.png Graphic file (type png)
 <use images/chowmoving.png>
-Package pdftex.def Info: images/chowmoving.png  used on input line 22.
+Package pdftex.def Info: images/chowmoving.png  used on input line 21.
 (pdftex.def)             Requested size: 362.37569pt x 517.67496pt.
 
 
@@ -1326,10 +1326,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./images/struct_break_freqs.png>]
-<images/portchowlio.png, id=281, 499.3857pt x 339.669pt>
+<images/portchowlio.png, id=285, 499.3857pt x 339.669pt>
 File: images/portchowlio.png Graphic file (type png)
 <use images/portchowlio.png>
-Package pdftex.def Info: images/portchowlio.png  used on input line 84.
+Package pdftex.def Info: images/portchowlio.png  used on input line 87.
 (pdftex.def)             Requested size: 362.37569pt x 246.47917pt.
 
 
@@ -1354,17 +1354,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [19 <./images/portchowlio.png>]
 Chapter 6.
 (6.tex
-<images/rolling_quantities_1.png, id=295, 1026.9567pt x 1439.6184pt>
+<images/rolling_quantities_1.png, id=299, 1026.9567pt x 1439.6184pt>
 File: images/rolling_quantities_1.png Graphic file (type png)
 <use images/rolling_quantities_1.png>
 Package pdftex.def Info: images/rolling_quantities_1.png  used on input line 9.
 (pdftex.def)             Requested size: 362.37569pt x 507.98178pt.
-<images/rolling_quantities_2.png, id=296, 1026.9567pt x 1444.6773pt>
+<images/rolling_quantities_2.png, id=300, 1026.9567pt x 1444.6773pt>
 File: images/rolling_quantities_2.png Graphic file (type png)
 <use images/rolling_quantities_2.png>
 Package pdftex.def Info: images/rolling_quantities_2.png  used on input line 15.
 (pdftex.def)             Requested size: 362.37569pt x 509.76686pt.
-<images/arrow1.png, id=297, 254.45062pt x 219.82124pt>
+<images/arrow1.png, id=301, 254.45062pt x 219.82124pt>
 File: images/arrow1.png Graphic file (type png)
 <use images/arrow1.png>
 Package pdftex.def Info: images/arrow1.png  used on input line 37.
@@ -1392,12 +1392,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22 <./images/rolling_quantities_2.png>]
-<images/arrow2.png, id=315, 484.05844pt x 210.03468pt>
+<images/arrow2.png, id=319, 484.05844pt x 210.03468pt>
 File: images/arrow2.png Graphic file (type png)
 <use images/arrow2.png>
 Package pdftex.def Info: images/arrow2.png  used on input line 51.
 (pdftex.def)             Requested size: 362.37569pt x 157.24359pt.
-<images/arrow3.png, id=316, 484.05844pt x 209.28188pt>
+<images/arrow3.png, id=320, 484.05844pt x 209.28188pt>
 File: images/arrow3.png Graphic file (type png)
 <use images/arrow3.png>
 Package pdftex.def Info: images/arrow3.png  used on input line 52.
@@ -1442,27 +1442,27 @@ Chapter 7.
 (7.tex [27
 
 ]
-<images/7_1.png, id=355, 678.03313pt x 459.21562pt>
+<images/7_1.png, id=359, 678.03313pt x 459.21562pt>
 File: images/7_1.png Graphic file (type png)
 <use images/7_1.png>
-Package pdftex.def Info: images/7_1.png  used on input line 43.
+Package pdftex.def Info: images/7_1.png  used on input line 44.
 (pdftex.def)             Requested size: 362.37569pt x 245.42216pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/7_2.png, id=357, 630.85687pt x 344.28625pt>
+<images/7_2.png, id=361, 630.85687pt x 344.28625pt>
 File: images/7_2.png Graphic file (type png)
 <use images/7_2.png>
-Package pdftex.def Info: images/7_2.png  used on input line 55.
+Package pdftex.def Info: images/7_2.png  used on input line 56.
 (pdftex.def)             Requested size: 362.37569pt x 197.76341pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/correlation.jpeg, id=359, 684.5575pt x 609.27625pt>
+<images/correlation.jpeg, id=363, 684.5575pt x 609.27625pt>
 File: images/correlation.jpeg Graphic file (type jpg)
 <use images/correlation.jpeg>
-Package pdftex.def Info: images/correlation.jpeg  used on input line 69.
+Package pdftex.def Info: images/correlation.jpeg  used on input line 70.
 (pdftex.def)             Requested size: 362.37569pt x 322.53369pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1475,10 +1475,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-<images/7_3.png, id=372, 672.5125pt x 440.14438pt>
+<images/7_3.png, id=376, 672.5125pt x 440.14438pt>
 File: images/7_3.png Graphic file (type png)
 <use images/7_3.png>
-Package pdftex.def Info: images/7_3.png  used on input line 83.
+Package pdftex.def Info: images/7_3.png  used on input line 84.
 (pdftex.def)             Requested size: 362.37569pt x 237.164pt.
 
 
@@ -1500,32 +1500,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30 <./images/correlation.jpeg> <./images/7_3.png>]
-<images/7_4.png, id=387, 621.32124pt x 274.52562pt>
+<images/7_4.png, id=391, 621.32124pt x 274.52562pt>
 File: images/7_4.png Graphic file (type png)
 <use images/7_4.png>
-Package pdftex.def Info: images/7_4.png  used on input line 95.
+Package pdftex.def Info: images/7_4.png  used on input line 96.
 (pdftex.def)             Requested size: 362.37569pt x 160.11302pt.
-<images/7_5.png, id=390, 530.98375pt x 431.6125pt>
+<images/7_5.png, id=394, 416.9979pt x 328.8285pt>
 File: images/7_5.png Graphic file (type png)
 <use images/7_5.png>
-Package pdftex.def Info: images/7_5.png  used on input line 116.
-(pdftex.def)             Requested size: 362.37569pt x 294.5661pt.
+Package pdftex.def Info: images/7_5.png  used on input line 117.
+(pdftex.def)             Requested size: 362.37569pt x 285.77242pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/7_6.png, id=392, 510.90875pt x 395.4775pt>
+<images/7_6.png, id=396, 510.90875pt x 395.4775pt>
 File: images/7_6.png Graphic file (type png)
 <use images/7_6.png>
-Package pdftex.def Info: images/7_6.png  used on input line 125.
+Package pdftex.def Info: images/7_6.png  used on input line 126.
 (pdftex.def)             Requested size: 362.37569pt x 280.50133pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/7_7.png, id=394, 511.9125pt x 394.47375pt>
+<images/7_7.png, id=398, 511.9125pt x 394.47375pt>
 File: images/7_7.png Graphic file (type png)
 <use images/7_7.png>
-Package pdftex.def Info: images/7_7.png  used on input line 134.
+Package pdftex.def Info: images/7_7.png  used on input line 135.
 (pdftex.def)             Requested size: 362.37569pt x 279.24165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1538,11 +1538,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31 <./images/7_4.png>]
-<images/7_8.png, id=405, 726.715pt x 387.4475pt>
+<images/7_8.png, id=409, 570.933pt x 281.853pt>
 File: images/7_8.png Graphic file (type png)
 <use images/7_8.png>
-Package pdftex.def Info: images/7_8.png  used on input line 143.
-(pdftex.def)             Requested size: 362.37569pt x 193.20302pt.
+Package pdftex.def Info: images/7_8.png  used on input line 144.
+(pdftex.def)             Requested size: 362.37569pt x 178.90155pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1563,13 +1563,76 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./images/7_7.png> <./images/7_8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+<images/HML1.png, id=423, 632.3625pt x 418.56375pt>
+File: images/HML1.png Graphic file (type png)
+<use images/HML1.png>
+Package pdftex.def Info: images/HML1.png  used on input line 167.
+(pdftex.def)             Requested size: 362.37569pt x 239.86116pt.
+<images/LogCPI2.png, id=424, 634.37pt x 399.4925pt>
+File: images/LogCPI2.png Graphic file (type png)
+<use images/LogCPI2.png>
+Package pdftex.def Info: images/LogCPI2.png  used on input line 173.
+(pdftex.def)             Requested size: 362.37569pt x 228.21294pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/OIL3.png, id=425, 630.355pt x 383.4325pt>
+File: images/OIL3.png Graphic file (type png)
+<use images/OIL3.png>
+Package pdftex.def Info: images/OIL3.png  used on input line 179.
+(pdftex.def)             Requested size: 362.37569pt x 220.42517pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/PPI4.png, id=427, 633.36626pt x 363.3575pt>
+File: images/PPI4.png Graphic file (type png)
+<use images/PPI4.png>
+Package pdftex.def Info: images/PPI4.png  used on input line 187.
+(pdftex.def)             Requested size: 362.37569pt x 207.89767pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/RMW5.png, id=429, 628.3475pt x 343.2825pt>
+File: images/RMW5.png Graphic file (type png)
+<use images/RMW5.png>
+Package pdftex.def Info: images/RMW5.png  used on input line 196.
+(pdftex.def)             Requested size: 362.37569pt x 197.97255pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 [34
 
-] (main.aux)
+ <./images/HML1.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./images/LogCPI2.png> <./images/OIL3.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./images/PPI4.png> <./images/RMW5.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1581,17 +1644,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44501 strings out of 474486
- 995885 string characters out of 5743283
+ 44553 strings out of 474486
+ 996862 string characters out of 5743283
  1948542 words of memory out of 5000000
- 65801 multiletter control sequences out of 15000+600000
+ 65842 multiletter control sequences out of 15000+600000
  637494 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,87p,1072b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Utente/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (35 pages, 5085407 bytes).
+Output written on main.pdf (38 pages, 5061198 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 45433 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 45458 words of extra memory for PDF output out of 51595 (max. 10000000)
 

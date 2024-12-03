@@ -155,6 +155,52 @@ multifactor models, offering valuable insights into the financial dynamics of th
 %-------- Appendix --------------------------------------------------------------------------------------------------------%
 \chapter*{Appendix}\label{chapter:appendix}
 
+%-------- GETS method -----------------------------------------------------------------------------------------------------%
+
+\section*{Details of the GETS method}\label{section:GETS}
+
+Here we present the outputs of the model developed using the GETS approach, which involves sequentially removing
+statistically insignificant regression coefficients.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/HML1.png}
+    \caption{Summary of the Regression after removing "HML"}\label{fig:HML1}
+\end{figure} 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/LogCPI2.png}
+    \caption{Summary of the Regression after removing "LogCPI".}\label{fig:CPI2}
+\end{figure} 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/OIL3.png}
+    \caption{Summary of the Regression after removing "OIL".}\label{fig:OIL3}
+\end{figure}
+Figure~\ref{fig:PPI4} shows that the variable RMW has a p-value close to the 5\% threshold used as a benchmark for
+determining whether to retain variables in the model. 
+
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/PPI4.png}
+    \caption{Summary of the Regression after removing "PPI".}\label{fig:PPI4}
+\end{figure}
+
+To assess its impact, we reran the model without RMW (Figure~\ref{fig:RMW5}) and observed a very small decrease in the 
+adjusted $R^2$ (from 0.790 to 0.788).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/RMW5.png}
+    \caption{Summary of the Regression after removing "RMW".}\label{fig:RMW5}
+\end{figure}
+
+
+Given this minimal change in the prediction power and to adopt a more parsimonious model for the analysis, we decided to
+exclude RMW from the regression.
+
 %-------- Roles Summary ---------------------------------------------------------------------------------------------------%
 
 \section*{Summary of Group Members' Contribution}
