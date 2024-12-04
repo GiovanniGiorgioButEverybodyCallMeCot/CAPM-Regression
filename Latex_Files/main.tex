@@ -15,9 +15,6 @@
 \usepackage{amsmath} % For advanced math commands
 \usepackage{amssymb} % For additional symbols
 \usepackage{bbold}   % For bold mathematical symbols
-% References
-\usepackage[backend=biber, sorting=none]{biblatex} % For references
-\addbibresource{references.bib}                     % Point to your bibliography file
 % Title and section formatting
 \usepackage{titlesec}
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
@@ -124,8 +121,34 @@ explanatory power with that of the CAPM.
 Structural breaks in the data are analyzed using the Chow test and a rolling window approach, providing insights into 
 parameter stability over time. This collaborative effort aims to deliver a comprehensive evaluation of the CAPM and 
 multifactor models, offering valuable insights into the financial dynamics of the Healthcare sector.
+
+%-------- Roles Summary ---------------------------------------------------------------------------------------------------%
+\clearpage
+\section*{Summary of Group Members' Contribution}
+
+Table~\ref{tab:group_contribution} provides a detailed breakdown of each group member's contributions to the project. 
+Notably, Giorgio Cottini also supervised the overall coding process and authored the accompanying LaTeX script.\\
+\vspace{2cm}
+\begin{table}[ht!]
+    \centering
+    \renewcommand{\arraystretch}{1.6} % Adjust row height
+    \begin{tabular}{|p{0.2\textwidth}|p{0.25\textwidth}|p{0.25\textwidth}|}
+        \hline
+        \rowcolor{unired!40} \textbf{Assignment} & \textbf{Code}              & \textbf{Comment}         \\ \hline
+        \textbf{Assignment 1}        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
+        \rowcolor{gray!10} \textbf{Assignment 2}        & Luigi Babiski             & Martina Arrighini        \\ \hline
+        \textbf{Assignment 3}        & Giorgio Cottini           & Martina Arrighini        \\ \hline
+        \rowcolor{gray!10} \textbf{Assignment 4}        & Martina Arrighini         & Martina Arrighini        \\ \hline
+        \textbf{Assignment 5}        & Giorgio Cottini           & Giorgio Cottini          \\ \hline
+        \rowcolor{gray!10} \textbf{Assignment 6}       & Luigi Babiski             & Luigi Babiski            \\ \hline
+        \textbf{Assignment 7}        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
+    \end{tabular}
+    \caption{Contribution of Group Members to Assignments}
+    \label{tab:group_contribution}
+\end{table}
+
 %-------- Assignment 1 -----------------------------------------------------------------------------------------------------%
-\chapter{Data Choice and Download}
+\chapter{Data Selection and Download Process}
 \input{1.tex}\label{chapter:download}
 
 %-------- Assignment 2 -----------------------------------------------------------------------------------------------------%
@@ -153,39 +176,41 @@ multifactor models, offering valuable insights into the financial dynamics of th
 \input{7.tex}
 
 %-------- Appendix --------------------------------------------------------------------------------------------------------%
-\chapter*{Appendix}\label{chapter:appendix}
+\appendix
+\chapter*{Appendix}
+\renewcommand{\thesection}{\Alph{section}}
 
 %-------- GETS method -----------------------------------------------------------------------------------------------------%
 
-\section*{Details of the GETS method}\label{section:GETS}
+\section{Details of the GETS method}\label{appendix:GETS}
 
 Here we present the outputs of the model developed using the GETS approach, which involves sequentially removing
 statistically insignificant regression coefficients.
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/HML1.png}
-    \caption{Summary of the Regression after removing "HML"}\label{fig:HML1}
+    \caption{Summary of the Regression after removing 'HML'}\label{fig:HML1}
 \end{figure} 
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/LogCPI2.png}
-    \caption{Summary of the Regression after removing "LogCPI".}\label{fig:CPI2}
+    \caption{Summary of the Regression after removing 'LogCPI'.}\label{fig:CPI2}
 \end{figure} 
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/OIL3.png}
-    \caption{Summary of the Regression after removing "OIL".}\label{fig:OIL3}
+    \caption{Summary of the Regression after removing 'OIL'.}\label{fig:OIL3}
 \end{figure}
 Figure~\ref{fig:PPI4} shows that the variable RMW has a p-value close to the 5\% threshold used as a benchmark for
 determining whether to retain variables in the model. 
 
- \begin{figure}[h!]
+ \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{images/PPI4.png}
-    \caption{Summary of the Regression after removing "PPI".}\label{fig:PPI4}
+    \caption{Summary of the Regression after removing 'PPI'.}\label{fig:PPI4}
 \end{figure}
 
 To assess its impact, we reran the model without RMW (Figure~\ref{fig:RMW5}) and observed a very small decrease in the 
@@ -197,34 +222,8 @@ adjusted $R^2$ (from 0.790 to 0.788).
     \caption{Summary of the Regression after removing "RMW".}\label{fig:RMW5}
 \end{figure}
 
-
 Given this minimal change in the prediction power and to adopt a more parsimonious model for the analysis, we decided to
 exclude RMW from the regression.
-
-%-------- Roles Summary ---------------------------------------------------------------------------------------------------%
-
-\section*{Summary of Group Members' Contribution}
-
-Table~\ref{tab:group_contribution} provides a detailed breakdown of each group member's contributions to the project. 
-Notably, Giorgio Cottini also supervised the overall coding process and authored the accompanying LaTeX script.\\
-
-\begin{table}[htbp]
-    \centering
-    \renewcommand{\arraystretch}{1.2} % Adjust row height
-    \begin{tabular}{|c|l|l|}
-        \hline
-        \rowcolor{unired!40} \textbf{Assignment} & \textbf{Code}              & \textbf{Comment}         \\ \hline
-        Assignment 1        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
-        \rowcolor{gray!10} Assignment 2        & Luigi Babiski             & Martina Arrighini        \\ \hline
-        Assignment 3        & Giorgio Cottini           & Martina Arrighini        \\ \hline
-        \rowcolor{gray!10} Assignment 4        & Martina Arrighini         & Martina Arrighini        \\ \hline
-        Assignment 5        & Giorgio Cottini           & Giorgio Cottini          \\ \hline
-        \rowcolor{gray!10} Assignment 6        & Luigi Babiski             & Luigi Babiski            \\ \hline
-        Assignment 7        & Enrico Paciaroni          & Enrico Paciaroni         \\ \hline
-    \end{tabular}
-    \caption{Contribution of Group Members to Assignments}
-    \label{tab:group_contribution}
-\end{table}
 
 %---------------------------------------------------------------------------------------------------------------------------%
 

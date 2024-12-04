@@ -36,7 +36,7 @@ We included these macroeconomic indicators because they potentially influence co
 Initially, we estimated a regression model using all variables.
 Next, we iteratively removed insignificant variables using the GETS (General-to-Specific) modeling strategy,
 which simplifies models while retaining predictive power, the specifics of this process can be found in
-Appendix.
+Appendix~\ref{appendix:GETS}.
 The complete model is presented in Figure~\ref{fig:7_1}.
 
 \begin{figure}[h!]
@@ -57,7 +57,7 @@ For all the following analysis, we will use this model as a benchmark (see Figur
     \caption{Regression summary for restricted model.}\label{fig:7_2}
 \end{figure}
 
-\textbf{Complete vs Restricted Model:} The adjusted $R^2$ decreased minimally from 0.790 to 0.788, confirming that the simpler 
+\textbf{Comparison Between Complete and Restricted Models:} The adjusted $R^2$ decreased minimally from 0.790 to 0.788, confirming that the simpler 
 model retained explanatory power. 
 Moreover, the test on the difference of the residuals between the restricted and the unrestricted model gives a p-value 
 equal to 0.1695, so we can agree that the difference in prediction power is not statistically significant.
@@ -76,8 +76,8 @@ significantly.
 After running the adjusted model (Figure~\ref{fig:7_3}), we observed that the standard error decreased, from 0.040 to 0.028.
 Despite this drop, we decided to keep MktRF in the model due to its low Variance Inflation Factor (VIF) of 2.618.
 This is well below the common threshold of 5, which is typically used to flag potential collinearity issues.
-We then examined the correlations among the remaining variables and found no coefficients suggesting the need for further
- adjustments or checks.
+We then examine the correlations among the remaining variables and found no coefficients suggesting the need for further
+adjustments or checks.
 
 \begin{figure}[h!]
     \centering
@@ -109,13 +109,13 @@ This model had an adjusted $R^2$ of 0.766, lower than the multivariate model ($R
 \subsection{Residual Analysis:}
 We examined the residuals of both models to assess their behavior over time and distributional properties.
 
-\textbf{Residual Variance:} CAPM Residuals displayed greater variance (red line in Figure~\ref{fig:7_5}), consistent with a
-poorer fit, while Multivariate Model Residuals variance was lower (blue line in Figure~\ref{fig:7_5}), indicating a better fit.
+\textbf{Residual Variance:} CAPM Residuals displayed greater variance (blue line in Figure~\ref{fig:7_5}), consistent with a
+poorer fit, while Multivariate Model Residuals' variance was lower (red line in Figure~\ref{fig:7_5}), indicating a better fit.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/7_5.png}
-    \caption{CAPM Residuals.}\label{fig:7_5}
+    \caption{Residals of CAPM against the model built with FF5  and MACRO.}\label{fig:7_5}
 \end{figure}
 
 \textbf{Residual Distribution:} CAPM Residuals followed a normal distribution but with a longer left tail, suggesting the

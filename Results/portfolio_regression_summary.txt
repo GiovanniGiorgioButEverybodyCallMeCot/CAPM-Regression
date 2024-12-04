@@ -1,25 +1,25 @@
 Summary for Porfolio:
-                               OLS Regression Results                              
-===================================================================================
-Dep. Variable:     HUMANA - TOT RETURN IND   R-squared:                       0.231
-Model:                                 OLS   Adj. R-squared:                  0.228
-Method:                      Least Squares   F-statistic:                     85.70
-Date:                     Mon, 02 Dec 2024   Prob (F-statistic):           5.13e-18
-Time:                             14:28:30   Log-Likelihood:                -1025.8
-No. Observations:                      288   AIC:                             2056.
-Df Residuals:                          286   BIC:                             2063.
-Df Model:                                1                                         
-Covariance Type:                 nonrobust                                         
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.772
+Model:                            OLS   Adj. R-squared:                  0.771
+Method:                 Least Squares   F-statistic:                     969.8
+Date:                Tue, 03 Dec 2024   Prob (F-statistic):           6.94e-94
+Time:                        18:29:09   Log-Likelihood:                -616.07
+No. Observations:                 288   AIC:                             1236.
+Df Residuals:                     286   BIC:                             1243.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          0.5939      0.506      1.174      0.241      -0.402       1.589
-x1             1.0700      0.116      9.257      0.000       0.843       1.298
+const          0.2234      0.122      1.832      0.068      -0.017       0.463
+x1             0.8677      0.028     31.142      0.000       0.813       0.923
 ==============================================================================
-Omnibus:                       26.671   Durbin-Watson:                   2.002
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               60.650
-Skew:                          -0.448   Prob(JB):                     6.76e-14
-Kurtosis:                       5.062   Cond. No.                         4.39
+Omnibus:                        3.897   Durbin-Watson:                   2.332
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                4.763
+Skew:                           0.039   Prob(JB):                       0.0924
+Kurtosis:                       3.625   Cond. No.                         4.39
 ==============================================================================
 
 Notes:
